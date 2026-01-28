@@ -12,7 +12,8 @@ readme = "README.md"
 authors = [{ name = "Doodadlabs", email = "admin@doodadlabs.org" }]
 license = { file = "LICENSE" }
 classifiers = [
-    "License :: OSI Approved :: GPL-3.0-only License",
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
 ]
