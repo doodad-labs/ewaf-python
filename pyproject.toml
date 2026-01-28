@@ -1,0 +1,30 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ewaf"
+version = "0.0.1"
+description = "Embedded Web-Application Firewall "
+readme = "README.md"
+authors = [{ name = "Doodadlabs", email = "admin@doodadlabs.org" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: GPL-3.0 License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["waf", "ewaf", "security"]
+dependencies = []
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = []
+
+[project.urls]
+Homepage = "https://github.com/doodad-labs/ewaf-python"
+
+[project.scripts]
+realpython = "reader.__main__:main"
