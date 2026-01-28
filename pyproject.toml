@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ewaf"
 version = "0.0.1"
-description = "Embedded Web-Application Firewall "
+description = "Embedded Web-Application Firewall"
 readme = "README.md"
 authors = [{ name = "Doodadlabs", email = "admin@doodadlabs.org" }]
 license = { file = "LICENSE" }
